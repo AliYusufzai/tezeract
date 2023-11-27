@@ -25,11 +25,6 @@ Environment Variables:
 
 Create a .env file in the root of the project and add the necessary environment variables. For example:
 
-env
-Copy code
-PORT=3000
-DATABASE_URL=mongodb://localhost:27017/your-database
-Make sure to replace the values with your specific configurations.
 
 Run the application:
 
