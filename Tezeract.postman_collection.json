@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "f5c2ad37-c37a-48cd-9c83-f4836e90f117",
+		"name": "Tezeract",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25806520"
+	},
+	"item": [
+		{
+			"name": "Get Average Salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/calculate/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"calculate",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Experienced Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/calculate/experience",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"calculate",
+						"experience"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get N Earners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/calculate/earners/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"calculate",
+						"earners",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Filter By Salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/calculate/filter?min=85000&max=88000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"calculate",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "min",
+							"value": "85000"
+						},
+						{
+							"key": "max",
+							"value": "88000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
